@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.itemname{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    display: flex;
+    width: 87vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuitem {
+    /* width: 142px; */
+    width: 118px;
+    margin: 19px 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flipkartImage {
+    /* height: 30px; */
+    padding: 5px;
+    cursor: pointer;
+    width: 7vw;
+}
+
+.menuimage {
+    height: 70px;
+    width: 70px;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flexcentrecolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.searchbtn {
+    height: 23px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 7px;
+    background-color: white;
+    color: #2874f0;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    outline: none;
+    padding: 0px 12px;
+    font-weight: bold;
+    margin-right: 108px;
+    border: none;
+}
+
+button :hover {
+    color: black;
+}
+
+input {
+    border: 0px;
+    height: 19px;
+    outline: none;
+    width: 515px;
+    margin: 10px;
+    font-size: medium;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+
+.navigations {
+
+    height: 23px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin: 3px 15px;
+    font-size: medium;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    outline: none;
+
+    font-weight: bold;
+    border: none;
+}
+
+.bas {
+    width: 130px;
+}
+
+main {
+    min-height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.bottom {
+    background-color: black;
+    height: 197px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #122340;
+}
+.banner{
+    width: 90vw;
+height: 70vh;
+cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    flex-direction: column;
+    margin: 44px;
+}
+
+.footerLinks {
+    color: white;
+    margin-bottom: 7px;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.address {
+    width: 206px;
+    color: white;
+    font-family: monospace;
+}
+
+.footerHeading {
+    color: white;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 12px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyrights {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 15px 38px 38px 38px;
+    width: 94vw;
+    overflow: auto;
+
+
+}
+.slideitems{
+    display: inline-flex;
+    width: fit-content;
+
+    
+}
+.slideitem{
+    display: flex;
+    margin: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+
+}
+.slideheading{
+    /* margin-bottom: 7px; */
+    font-family: sans-serif;
+    font-size: x-large;
+    align-self: start;
+    margin: 40px 40px 0px 41px;
+}
+.slideimgrectangle{
+    height: 145px;
+    /* max-height: 148px; */
+    width: 100px;
+    cursor: pointer;
+}
+.slideimgsquare{
+    height: 130px;
+    /* max-height: 148px; */
+    width: 130px;
+    cursor: pointer;
+}
+.slideiteminfo{
+    font-family: serif;
+    font-weight: lighter;
+    font-size: medium;
+    margin: 7px 0px;
+    cursor: pointer;
+}
+.slideitemdiscount{
+    color: green;
+    font-weight: lighter;
+}
